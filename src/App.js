@@ -14,7 +14,7 @@ const Container = styled.div`
   padding: 20px 10px;
   border-radius: 4px;
   width: 380px;
-  background: white;
+  background: red;
   font-family: Montserrat;
 `;
 const AppLable = styled.span`
@@ -36,7 +36,7 @@ function App() {
   };
   return (
     <Container>
-      <AppLable> React Weather App</AppLable>
+      <AppLable> MSC CART Weather App</AppLable>
       {weather ? (
         <WeatherInfoComponent weather={weather} />
       ) : (
